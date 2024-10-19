@@ -1,4 +1,4 @@
-## Datos Importantes del primer capitulo
+## Resumen Cap. 1: Valores, Tipos y Operadores 
 
 ### 1. Números 
 
