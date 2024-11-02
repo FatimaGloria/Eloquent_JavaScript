@@ -87,3 +87,9 @@ Y esta es la segunda
 
 `la mitad de 100 es 50`
 
+### **Operadores Unarios**
+typeof:  produce un valor de cadena, indicando el tipo de dato correspondiente al valor proporcionado (opera sobre un solo valor). 
+
+`console.log(typeof 4.5) → number`
+
+
