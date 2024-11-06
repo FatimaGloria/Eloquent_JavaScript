@@ -43,7 +43,7 @@ Pero no es matemáticamente sólido y rápidamente te llevará al siguiente núm
 * Residuo o módulo `%` 
 
  
-### **Notas** 
+#### **Notas** 
 * Colocar un operador entre dos valores aplicará ese operador a esos valores y producirá un nuevo valor.  
 
 * Cuando los operadores aparecen juntos sin paréntesis, el orden en que se aplican se determina por la precedencia de los operadores, como en matemáticas. Cuando tengas dudas, simplemente agrega paréntesis. 
@@ -72,7 +72,7 @@ Esta es la primera línea
 Y esta es la segunda 
 ```
  
-### **Notas**
+#### **Notas**
 * Las cadenas también deben ser modeladas como una serie de bits para poder existir dentro de la computadora. Se basa en el estándar Unicode. 
 
 * El operador + se puede usar en ellas, no para sumar, sino para concatenar —unir dos cadenas 
@@ -91,5 +91,51 @@ Y esta es la segunda
 typeof:  produce un valor de cadena, indicando el tipo de dato correspondiente al valor proporcionado (opera sobre un solo valor). 
 
 `console.log(typeof 4.5) → number`
+
+### **4. Valores Booleanos**
+
+Dos valores: 
+
+- True 
+
+- False 
+
+Una forma de producir valores booleanos es a tráves de una comparación:  
+
+`console.log(3 > 2)  → true`
+
+`console.log(3 < 2)  → false`
+
+Cadenas se pueden comparar de la misma manera:
+
+`console.log("Aardvark" < "Zoroaster") → true`
+
+#### **Notas**
+
+- Los signos `>` y `<` son símbolos para “es mayor que” y “es menor que”, respectivamente. Son operadores binarios, y su aplicación da como resultado un valor booleano.
+- Las letras mayúsculas son siempre “menores” que las minúsculas. 
+- Los caracteres no alfabéticos (!, -, y así sucesivamente) también se incluyen en la ordenación. 
+
+
+### **4.1 Operadores similares son:** 
+
+ `>=`  →  mayor o igual que 
+
+`<=`  →  menor o igual que 
+
+ `==`  →  igual a
+
+ `!=`  →  no igual a 
+
+Ej.
+
+`console.log("Granate" != "Rubí") → true` 
+
+`console.log("Perla" == "Amatista") → false` 
+
+
+Solo hay un valor en JavaScript que no es igual a sí mismo, y ese es NaN (“no es un número”). 
+
+`console.log(NaN == NaN) → false`
 
 
